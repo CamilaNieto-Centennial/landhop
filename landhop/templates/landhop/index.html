@@ -1,0 +1,16 @@
+{% extends "landhop/layout.html" %}
+{% load static %}
+
+{% block body %}
+    <h1>Welcome back {{ request.user.username }}!</h1>
+
+    <a class="btn btn-sm btn-outline-primary" href="{% url 'logout' %}">Log Out</a>
+
+    <h2>Index Page</h2>
+
+
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'landhop/index.js' %}"></script>
+{% endblock %}
