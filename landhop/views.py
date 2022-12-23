@@ -51,6 +51,14 @@ def register(request):
         # Ensure password matches confirmation
         password = request.POST["password"]
         confirmation = request.POST["confirmation"]
+        print("Username: ", username)
+
+        if username or email or password or confirmation == '':
+            return render(request, "landhop/register.html", {
+                "message": "Please fill out all spaces"
+            })
+
+
         if password != confirmation:
             return render(request, "landhop/register.html", {
                 "message": "Passwords must match."
@@ -60,8 +68,7 @@ def register(request):
         try:
             user = User.objects.create_user(username, email, password)
             user.save()
-        except IntegrityError as e:
-            print(e)
+        except IntegrityError:
             return render(request, "landhop/register.html", {
                 "message": "Username already taken."
             })
