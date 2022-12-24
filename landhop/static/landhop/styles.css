@@ -1,3 +1,10 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
 /* Login & Register background image*/
 .background-image {
     background-image: url('./landscape5.jpg');
@@ -20,6 +27,76 @@
     font-weight: bold;
 }
 
+
+
+/* Navbar Links and NavBar */
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.849);
+    text-decoration: none;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+
+/* Logo Inside NavBar */
+.logo {
+    width: 100%;
+    max-width: 125px;
+    height: auto;
+}
+
+/* Logo Inside Footer */
+.logo2 {
+    width: 100%;
+    max-width: 95px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #161a1d;
+    color: white;
+    padding-top: 2rem;
+}
+
+/* hr */
+hr .light {
+    border-top: 1px solid white;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+
+footer a {
+    color: white;
+}
+
+/* hr */
+hr .light-100 {
+    border-top: 1px solid white;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.text-small {
+    color: white !important;
+    padding: .5em 1em;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: .875em;
+}
 
 
 /*--- MEDIA QUERIES --*/

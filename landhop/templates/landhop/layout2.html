@@ -1,0 +1,107 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% block title %}INDEX{% endblock %}</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{% static 'landhop/styles.css' %}">
+        {% block script %}
+        {% endblock %}
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: #161a1d;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static 'landhop/LANDHOPnewWhite.png' %}" alt="ANIMAL RESCUE" class="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        
+                            <ul class="navbar-nav ms-auto"><!--mt-2-->
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="{% url 'index' %}">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/#adopt">TOP CITIES</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      BY SECTIONS
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="min-width: 8rem;">
+                                      <li><a class="dropdown-item" href="/volunteerForm">ASIA</a></li>
+                                      <li><a class="dropdown-item" href="/fosterForm">AFRICA</a></li>
+                                      <li><a class="dropdown-item" href="/educateForm">CARIBBEAN</a></li>
+                                      <li><a class="dropdown-item" href="/fosterForm">MIDDLE EAST</a></li>
+                                      <li><a class="dropdown-item" href="/educateForm">NORTH AMERICA</a></li>
+                                      <li><a class="dropdown-item" href="/educateForm">SOUTH AMERICA</a></li>
+                                      <li><a class="dropdown-item" href="/educateForm">EUROPE</a></li>
+                                      <li><a class="dropdown-item" href="/educateForm">OCEANIA</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{% url 'logout' %}">LOG OUT</a>
+                                </li>
+                            </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+
+        {% block body %}
+        {% endblock %}
+
+        
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img src="{% static 'landhop/LANDHOPnewWhite.png' %}" alt="Logo" class="logo2">
+                        <hr class="light">
+                        <p>For dreamers & adventurers</p>
+                        <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatibus possimus eveniet dolore fuga adipisci dolorem eum iste itaque asperiores voluptatem cumque incidunt perspiciatis, quis ea quas harum recusandae debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Sections</h5>
+                        <hr class="light">
+                        <p>Asia</p>
+                        <p>Africa</p>
+                        <p>Caribbean</p>
+                        <p>Middle East</p>
+                        <p>North America</p>
+                        <p>South America</p>
+                        <p>Europe</p>
+                        <p>Oceania</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Top Cities</h5>
+                        <hr class="light">
+                        <p>City 1</p>
+                        <p>City 2</p>
+                        <p>City 3</p>
+                        <p>City 4</p>
+                        <p>City 5</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light">
+                        <h5>&copy; Camila Nieto CS50-Final Project</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+       
+    </body>
+</html>
