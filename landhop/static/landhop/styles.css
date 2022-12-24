@@ -1,0 +1,61 @@
+/* Login & Register background image*/
+.background-image {
+    background-image: url('./landscape5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 53%; /*ONLY landscape*/
+}
+
+/* Login & Register Card */
+.card {
+    display: flex; justify-content: center; align-items: center;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px #5e5d5d;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.btn {
+    font-weight: bold;
+}
+
+
+
+/*--- MEDIA QUERIES --*/
+
+@media (max-width: 1200px) {
+
+        
+
+}
+
+
+@media (max-width: 992px) {
+
+    
+
+}
+
+
+@media (max-width: 768px) {
+    /* Background Image */
+    .background-image {
+        /*travel*/
+        /*background-position: 8%;*/
+    }
+      
+
+}
+
+
+@media (max-width: 576px) {
+    /* Background Image */
+    .background-image {
+        /*travel*/
+        /*background-position: 20%;*/
+    }
+
+      
+
+}

@@ -52,12 +52,14 @@ def register(request):
         password = request.POST["password"]
         confirmation = request.POST["confirmation"]
         print("Username: ", username)
+        print("Email: ", email)
+        print("Password: ", password)
+        print("Confirmation: ", confirmation)
 
-        if username or email or password or confirmation == '':
+        if username == '' or email == '' or password == '' or confirmation == '':
             return render(request, "landhop/register.html", {
                 "message": "Please fill out all spaces"
             })
-
 
         if password != confirmation:
             return render(request, "landhop/register.html", {
