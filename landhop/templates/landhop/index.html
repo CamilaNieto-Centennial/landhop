@@ -3,7 +3,22 @@
 
 {% block body %}
 
-    <div class="container">
+
+    <div class="videoContainer">
+        <video autoplay loop muted playsinline class="full-video">
+            <source src="{% static 'landhop/Sharks.mp4' %}" type="video/mp4">
+        </video>
+
+        <div class="col-11 col-sm-11 col-md-10 col-lg-9 col-xl-9 overlay my-auto mx-auto">
+            <h1>LANDHOP</h1>
+            <h4>Need help planning your trip? The website provides a list of cities and their attractions, along with feedback from other travelers.</h4>
+            <a href="#topCities">GET STARTED</a>
+        </div>
+    </div>
+
+
+
+    <div class="container" id="">
         <h1>Welcome back {{ request.user.username }}!</h1>
 
         <h2>Index Page</h2>
