@@ -1,3 +1,5 @@
+@import url("./fonts/gt-eesti-pro/stylesheet.css");
+
 html, body {
     height: 100%;
     width: 100%;
@@ -165,6 +167,107 @@ hr .light-100 {
     margin-bottom: 1em;
 }
 
+
+/* divSections (Top Cities, By Sections, ...) */
+.divSection {
+    margin: 2em auto 2em;
+    text-align: center;
+}
+
+/* Subtitles like: Top Cities, By Sections, and Connect*/
+.subtitles {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2em;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+.subContents {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+/* Content of each Section */
+.contents {
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+
+
+/* Figure tag of each Image on the By Sections */
+#figureimgcaption{
+    /*width:50%;*/
+    position:relative;
+    display:flex;
+    min-width:300px;
+    margin:0;
+}
+
+/* Title of each Section Inside Image */
+#img-caption{
+    position:absolute;
+    bottom:0;
+    /*font-size:1rem;*/
+    width:100%;
+    text-align: center;
+    /*background-color:rgba(0, 0, 0, 0.644);*/
+    color:white;
+    font-family: 'GT Eesti Pro',Arial,sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: 0;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+}
+
+
+/* Set the gradient on each image of the By Sections */
+.img-gradient {
+    max-width: 100%; 
+    margin: auto;
+}
+  
+.img-gradient::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #161a1d 100%);
+    margin-top: -80px;
+    height: 80px;
+    width: 100%;
+    content: '';
+  }
+
+
+/* Social icons (inside "Connect") */
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.bi-facebook{
+    color: #3b5998;
+}
+
+.bi-linkedin{
+    color: #0072b1;
+}
+
+.bi-instagram{
+    color: #fb3958;
+}
+
+.bi-github{
+    color: #000000;
+}
+
+.bi-facebook:hover,
+.bi-linkedin:hover,
+.bi-instagram:hover,
+.bi-github:hover {
+    color:#78787897;
+}
+
 /*--- MEDIA QUERIES --*/
 
 @media (max-width: 1500px) {
@@ -201,7 +304,17 @@ hr .light-100 {
         font-size: 1.2rem;
         margin-bottom: .9em;
     }
-        
+
+    /* Div of the Content of each Section*/
+    .divSection {
+        margin: 1.5em auto 1.5em;
+    }
+      
+    /* Titles of each Section */
+    .subtitles {
+        font-size: 3em;
+        margin-bottom: .5em;
+    }
 
 }
 
@@ -222,6 +335,21 @@ hr .light-100 {
         font-size: 1.2rem;
     }
     
+    /* Div of the Content of each Section*/
+    .divSection {
+        margin: 1.2em auto 1.2em;
+    }
+
+    /* Titles of each Section */
+    .subtitles {
+        font-size: 2.6em;
+        margin-bottom: .4em;
+    }
+
+    /* Content of each Section */
+    .contents {
+        font-size: 1.1em;
+    }
 
 }
 
@@ -241,7 +369,23 @@ hr .light-100 {
         font-size: 1.1rem;
         margin-bottom: .5rem;
     }
+
+    /* Div of the Content of each Section*/
+    .divSection {
+        padding: 1.2em;
+        margin: auto;
+    }
       
+    /* Titles of each Section */
+    .subtitles {
+        font-size: 2.2em;
+        margin-bottom: .4em;
+    }
+
+    /* Content of each Section */
+    .contents {
+        font-size: 1em;
+    }
 
 }
 
@@ -264,6 +408,22 @@ hr .light-100 {
         margin-bottom: .3rem;
     }
 
-      
+    /* Div of the Content of each Section*/
+    .divSection {
+        margin: 0em;
+        padding: 1.4em;
+    }
+
+    /* Div of the Content of each Section*/
+    .subContents {
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+
+    /* Titles of each Section */
+    .subtitles {
+        font-size: 2.3em;
+        margin-bottom: .4em;
+    }
 
 }
