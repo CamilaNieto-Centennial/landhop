@@ -18,6 +18,38 @@ def index(request):
     else:
         return HttpResponseRedirect(reverse("login"))
 
+def sections(request):
+    # Authenticated users view their index
+    if request.user.is_authenticated:
+        return render(request, "landhop/sections.html")
+
+    # Everyone else is prompted to sign in
+    else:
+        return HttpResponseRedirect(reverse("login"))
+
+def categorySearch(request):
+    pass
+
+
+def city(request):
+    # Authenticated users view their index
+    if request.user.is_authenticated:
+        return render(request, "landhop/city.html")
+
+    # Everyone else is prompted to sign in
+    else:
+        return HttpResponseRedirect(reverse("login"))
+
+def sight(request):
+    # Authenticated users view their index
+    if request.user.is_authenticated:
+        return render(request, "landhop/sight.html")
+
+    # Everyone else is prompted to sign in
+    else:
+        return HttpResponseRedirect(reverse("login"))
+
+
 def login_view(request):
     if request.method == "POST":
 

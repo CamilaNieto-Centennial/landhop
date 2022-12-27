@@ -10,6 +10,9 @@
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <!-- Icon font-awesome -->
+        <script src="https://kit.fontawesome.com/355ed0a037.js" crossorigin="anonymous"></script>
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="{% static 'landhop/styles.css' %}">
@@ -34,10 +37,11 @@
                                     <a class="nav-link" href="/#topCities">TOP CITIES</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link" href="{% url 'sections' %}">SECTIONS</a>
+                                    <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                       BY SECTIONS
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="min-width: 8rem;">
+                                    </a>-->
+                                    <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="min-width: 8rem;">
                                       <li><a class="dropdown-item" href="/volunteerForm">ASIA</a></li>
                                       <li><a class="dropdown-item" href="/fosterForm">AFRICA</a></li>
                                       <li><a class="dropdown-item" href="/educateForm">CARIBBEAN</a></li>
@@ -46,7 +50,7 @@
                                       <li><a class="dropdown-item" href="/educateForm">SOUTH AMERICA</a></li>
                                       <li><a class="dropdown-item" href="/educateForm">EUROPE</a></li>
                                       <li><a class="dropdown-item" href="/educateForm">OCEANIA</a></li>
-                                    </ul>
+                                    </ul>-->
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{% url 'logout' %}">LOG OUT</a>

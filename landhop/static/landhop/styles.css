@@ -285,6 +285,42 @@ hr .light-100 {
     color:#78787897;
 }
 
+
+/* Stars of sights inside City Page */
+.stars-outer {
+    position: relative;
+    display: inline-block;
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #ccc;
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #f8ce0b;
+}
+
+
+.number-rating{
+    color: gray; 
+    font-weight: bold;
+}
+
 /*--- MEDIA QUERIES --*/
 
 @media (max-width: 1500px) {
