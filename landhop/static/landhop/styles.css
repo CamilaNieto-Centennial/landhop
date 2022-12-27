@@ -69,6 +69,7 @@ footer {
     background-color: #161a1d;
     color: white;
     padding-top: 2rem;
+    margin-top: 1.5em;
 }
 
 /* hr */
@@ -170,15 +171,24 @@ hr .light-100 {
 
 /* divSections (Top Cities, By Sections, ...) */
 .divSection {
-    margin: 2em auto 2em;
+    margin: 3em auto 0em;
     text-align: center;
 }
+
 
 /* Subtitles like: Top Cities, By Sections, and Connect*/
 .subtitles {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.2em;
-    margin-bottom: 0.6em;
+    margin-bottom: 0em;
+    font-weight: bold;
+}
+
+/* Titles like: City name, Sections, and Sight name*/
+.titles {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2em;
+    margin-bottom: 0.3em;
     font-weight: bold;
 }
 
@@ -193,7 +203,23 @@ hr .light-100 {
     text-align: justify;
 }
 
+/* <hr> tag (Main one, not the one on the Footer) */
+.mainHr {
+    width:60%;
+    margin: 0em auto 1.5em auto;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 
+/* <hr> tag (Submain one, not the one on the Footer) */
+.submainHr {
+    width:60%;
+    margin: 0em auto 1em auto;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 
 /* Figure tag of each Image on the By Sections */
 #figureimgcaption{
@@ -286,6 +312,11 @@ hr .light-100 {
 }
 
 
+/* divSections (City Page, Sight Page...) */
+.divSectionNormal {
+    margin: 3em auto 0em;
+}
+
 /* Stars of sights inside City Page */
 .stars-outer {
     position: relative;
@@ -359,14 +390,19 @@ hr .light-100 {
     }
 
     /* Div of the Content of each Section*/
-    .divSection {
-        margin: 1.5em auto 1.5em;
+    .divSection .divSectionNormal {
+        margin: 2.5em auto 0em;
     }
       
     /* Titles of each Section */
     .subtitles {
         font-size: 3em;
-        margin-bottom: .5em;
+    }
+
+    /* Titles like: City name, Sections, and Sight name*/
+    .titles {
+        font-size: 3em;
+        margin-bottom: 0.2em;
     }
 
 }
@@ -389,14 +425,19 @@ hr .light-100 {
     }
     
     /* Div of the Content of each Section*/
-    .divSection {
-        margin: 1.2em auto 1.2em;
+    .divSection .divSectionNormal {
+        margin: 2em auto 0em;
     }
 
     /* Titles of each Section */
     .subtitles {
+        font-size: 2.8em;
+    }
+
+    /* Titles like: City name, Sections, and Sight name*/
+    .titles {
         font-size: 2.6em;
-        margin-bottom: .4em;
+        margin-bottom: 0.2em;
     }
 
     /* Content of each Section */
@@ -424,15 +465,19 @@ hr .light-100 {
     }
 
     /* Div of the Content of each Section*/
-    .divSection {
-        padding: 1.2em;
-        margin: auto;
+    .divSection .divSectionNormal {
+        margin: 2em auto 0em;
     }
       
     /* Titles of each Section */
     .subtitles {
-        font-size: 2.2em;
-        margin-bottom: .4em;
+        font-size: 2.5em;
+    }
+
+    /* Titles like: City name, Sections, and Sight name*/
+    .titles {
+        font-size: 2.3em;
+        margin-bottom: 0.1em;
     }
 
     /* Content of each Section */
@@ -462,9 +507,8 @@ hr .light-100 {
     }
 
     /* Div of the Content of each Section*/
-    .divSection {
-        margin: 0em;
-        padding: 1.4em;
+    .divSection .divSectionNormal {
+        margin: 1.8em auto 0em;
     }
 
     /* Div of the Content of each Section*/
@@ -473,10 +517,15 @@ hr .light-100 {
         padding-right: .5em;
     }
 
+    /* Titles like: City name, Sections, and Sight name*/
+    .titles {
+        font-size: 2.4em;
+        margin-bottom: 0.1em;
+    }
+
     /* Titles of each Section */
     .subtitles {
-        font-size: 2.3em;
-        margin-bottom: .4em;
+        font-size: 2.4em;
     }
 
 }
