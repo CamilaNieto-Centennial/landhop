@@ -72,7 +72,7 @@ footer {
     margin-top: 1.5em;
 }
 
-/* hr */
+/* hr inside Footer*/
 hr .light {
     border-top: 1px solid white;
     width: 75%;
@@ -252,6 +252,7 @@ hr .light-100 {
 .img-gradient {
     max-width: 100%; 
     margin: auto;
+    overflow: hidden;
 }
   
 .img-gradient::after {
@@ -263,6 +264,17 @@ hr .light-100 {
     width: 100%;
     content: '';
   }
+
+/* Set time for transition */
+.img-gradient img{
+    width: 100%;
+    transition: 0.8s all ease-in-out;
+}
+
+/* Zoom in effect when hover on image */
+.img-gradient:hover img {
+    transform: scale(1.3);
+}
 
 
 /* Carousel inner padding of By Sections*/
@@ -350,6 +362,10 @@ hr .light-100 {
 .number-rating{
     color: gray; 
     font-weight: bold;
+}
+
+.big-number{
+    font-size: 1.5em;
 }
 
 /*--- MEDIA QUERIES --*/
