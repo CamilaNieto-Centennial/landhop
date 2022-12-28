@@ -4,7 +4,7 @@ from django.shortcuts import HttpResponse, HttpResponseRedirect, render
 from django.shortcuts import render
 from django.urls import reverse
 
-from .models import User, Section
+from .models import User, Section, City
 
 # Create your views here.
 
@@ -13,7 +13,8 @@ def index(request):
     # Authenticated users view their index
     if request.user.is_authenticated:
         return render(request, "landhop/index.html", {
-            "sections": Section.objects.all()
+            "sections": Section.objects.all(),
+            "cities": City.objects.filter(isTop=True)
         })
 
     # Everyone else is prompted to sign in
@@ -23,7 +24,9 @@ def index(request):
 def sections(request):
     # Authenticated users view their index
     if request.user.is_authenticated:
-        return render(request, "landhop/sections.html")
+        return render(request, "landhop/sections.html", {
+            "cities": City.objects.all()
+        })
 
     # Everyone else is prompted to sign in
     else:

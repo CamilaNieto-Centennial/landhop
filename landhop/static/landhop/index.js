@@ -2,6 +2,10 @@ var multipleCardCarousel = document.querySelector(
   "#carouselExampleControls"
 );
 
+$(function() {
+  $('#carousel-items').addClass('active');
+});
+
   if (window.matchMedia("(min-width: 768px)").matches && window.matchMedia("(max-width: 992px)").matches) {
     console.log("MD: Min-width: 768px, Max-width: 992px")
     var carousel = new bootstrap.Carousel(multipleCardCarousel, {
