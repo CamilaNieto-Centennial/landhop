@@ -337,6 +337,11 @@ hr .light-100 {
     margin: 3em auto 0em;
 }
 
+/* No available messages */
+.bigMarginBotton {
+    margin-bottom: 5em;
+}
+
 /* Stars of sights inside City Page */
 .stars-outer {
     position: relative;
@@ -429,6 +434,11 @@ hr .light-100 {
         margin-bottom: 0.2em;
     }
 
+    /* No available messages */
+    .bigMarginBotton {
+        margin-bottom: 5.3em;
+    }
+
 }
 
 
@@ -469,6 +479,11 @@ hr .light-100 {
         font-size: 1.1em;
     }
 
+    /* No available messages */
+    .bigMarginBotton {
+        margin-bottom: 5.6em;
+    }
+
 }
 
 
@@ -507,6 +522,11 @@ hr .light-100 {
     /* Content of each Section */
     .contents {
         font-size: 1em;
+    }
+
+    /* No available messages */
+    .bigMarginBotton {
+        margin-bottom: 0em;
     }
 
 }

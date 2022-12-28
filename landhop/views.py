@@ -39,7 +39,8 @@ def sections(request, name):
             
             return render(request, "landhop/sections.html", {
                 "cities": City.objects.filter(section=sectionInfo),
-                "sections": Section.objects.all()
+                "sections": Section.objects.all(),
+                "titleSection": name
             })
 
     # Everyone else is prompted to sign in

@@ -7,7 +7,7 @@
     <div class="container text-center divSection" id="sections" style="margin-bottom: 1em;">
         <div class="row align-items-center">
             <div class="col-12">
-                <h2 class="subtitles">Sections</h2>
+                <h2 class="subtitles">{{titleSection}}</h2>
                 <hr class="submainHr">
             </div>
         </div>
@@ -15,38 +15,24 @@
             <div class="col-12 col-md-12 col-sm-12 col-xs-12 col-lg-12 subContents">
                 <div class="container text-center">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                        {% for city in cities %}
-                            <div class="col">
-                                <div class="card h-100">
-                                    <img src="{{city.photo}}" class="card-img-top" alt="{{city.title}}">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><strong>{{city.title}}</strong></h5>
-                                        <p class="card-text shortDescription">{{city.description}}</p>
-                                        <a class="btn btn-primary" href="{% url 'city' %}" role="button">VIEW DETAILS</a>
+                        {% if cities %}
+                            {% for city in cities %}
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <img src="{{city.photo}}" class="card-img-top" alt="{{city.title}}">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><strong>{{city.title}}</strong></h5>
+                                            <p class="card-text shortDescription">{{city.description}}</p>
+                                            <a class="btn btn-primary" href="{% url 'city' %}" role="button">VIEW DETAILS</a>
+                                        </div>
                                     </div>
                                 </div>
+                            {% endfor %}
+                        {% else %}
+                            <div class="col text-center">
+                                <h4 class="bigMarginBotton">No cities available.</h4>
                             </div>
-                        {% endfor %}
-                        <!--<div class="col">
-                            <div class="card h-100">
-                                <img src="{% static 'landhop/travel1.jpg' %}" class="card-img-top" alt="City 2">
-                                <div class="card-body">
-                                    <h5 class="card-title"><strong>City 2</strong></h5>
-                                    <p class="card-text">This is a short card.</p>
-                                    <a class="btn btn-primary" href="{% url 'city' %}" role="button">VIEW DETAILS</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card h-100">
-                                <img src="{% static 'landhop/travel1.jpg' %}" class="card-img-top" alt="City 3">
-                                <div class="card-body">
-                                    <h5 class="card-title"><strong>City 3</strong></h5>
-                                    <p class="card-text">This is a short card.</p>
-                                    <a class="btn btn-primary" href="{% url 'city' %}" role="button">VIEW DETAILS</a>
-                                </div>
-                            </div>
-                        </div>-->
+                        {% endif %}
                     </div>
                 </div>
             </div>
