@@ -21,12 +21,26 @@ def index(request):
     else:
         return HttpResponseRedirect(reverse("login"))
 
-def sections(request):
+def allSections(request):
     # Authenticated users view their index
     if request.user.is_authenticated:
         return render(request, "landhop/sections.html", {
             "cities": City.objects.all()
         })
+
+
+def sections(request, name):
+    # Authenticated users view their index
+    if request.user.is_authenticated:
+        # GET request method
+        if request.method == "GET":
+            print("NAME: ", name)
+            sectionInfo = Section.objects.get(title=name)
+            
+            return render(request, "landhop/sections.html", {
+                "cities": City.objects.filter(section=sectionInfo),
+                "sections": Section.objects.all()
+            })
 
     # Everyone else is prompted to sign in
     else:

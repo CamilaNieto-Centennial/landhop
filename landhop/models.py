@@ -20,6 +20,7 @@ class City(models.Model):
     description = models.CharField(max_length=800)
     photo = models.URLField(max_length=500)
     isTop = models.BooleanField(default=False)
+    section = models.ForeignKey(Section, on_delete=models.CASCADE, null=True, related_name="section")
     dateCreated = models.DateTimeField(default=timezone.now, blank=True)
 
     def __str__(self):

@@ -65,7 +65,7 @@
                                 {% for section in sections %}
                                     <div id="carousel-items" class="carousel-item">
                                         <div class="col">
-                                            <a href="{% url 'sections' %}">
+                                            <a href="/sections/{{ section.title }}">
                                                 <figure class="figure" id="figureimgcaption">
                                                     <div class="img-gradient">
                                                         <img id="image" src="{{section.photo}}" class="img-fluid rounded" alt="{{section.title}}">
