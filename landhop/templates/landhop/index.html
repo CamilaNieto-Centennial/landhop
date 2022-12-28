@@ -80,103 +80,20 @@
 
                         <div id="carouselExampleControls" class="carousel" data-interval="false">
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="col">
-                                        <a href="{% url 'sections' %}">
-                                            <figure class="figure" id="figureimgcaption">
-                                                <div class="img-gradient">
-                                                    <img id="image" src="/static/landhop/landscape5.jpg" class="img-fluid rounded" alt="Section 1">
-                                                </div>
-                                                <figcaption id="img-caption" class="text-center rounded"><h3>EUROPE</h3></figcaption>
-                                            </figure>
-                                        </a>
+                                {% for section in sections %}
+                                    <div class="carousel-item active">
+                                        <div class="col">
+                                            <a href="{% url 'sections' %}">
+                                                <figure class="figure" id="figureimgcaption">
+                                                    <div class="img-gradient">
+                                                        <img id="image" src="{{section.photo}}" class="img-fluid rounded" alt="{{section.title}}">
+                                                    </div>
+                                                    <figcaption id="img-caption" class="text-center rounded"><h3>{{section.title}}</h3></figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col">
-                                        <a href="{% url 'sections' %}">
-                                            <figure class="figure" id="figureimgcaption">
-                                                <div class="img-gradient">
-                                                    <img id="image" src="/static/landhop/landscape5.jpg" class="img-fluid rounded" alt="Section 2">
-                                                </div>
-                                                <figcaption id="img-caption" class="text-center rounded"><h3>NORTH AMERICA</h3></figcaption>
-                                            </figure>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col">
-                                        <a href="{% url 'sections' %}">
-                                            <figure class="figure" id="figureimgcaption">
-                                                <div class="img-gradient">
-                                                    <img id="image" src="/static/landhop/landscape5.jpg" class="img-fluid rounded" alt="Section 3">
-                                                </div>
-                                                <figcaption id="img-caption" class="text-center rounded"><h3>ASIA</h3></figcaption>
-                                            </figure>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col">
-                                        <a href="{% url 'sections' %}">
-                                            <figure class="figure" id="figureimgcaption">
-                                                <div class="img-gradient">
-                                                    <img id="image" src="/static/landhop/landscape5.jpg" class="img-fluid rounded" alt="Section 3">
-                                                </div>
-                                                <figcaption id="img-caption" class="text-center rounded"><h3>SOUTH AMERICA</h3></figcaption>
-                                            </figure>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col">
-                                        <a href="{% url 'sections' %}">
-                                            <figure class="figure" id="figureimgcaption">
-                                                <div class="img-gradient">
-                                                    <img id="image" src="/static/landhop/landscape5.jpg" class="img-fluid rounded" alt="Section 3">
-                                                </div>
-                                                <figcaption id="img-caption" class="text-center rounded"><h3>MIDDLE EAST</h3></figcaption>
-                                            </figure>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col">
-                                        <a href="{% url 'sections' %}">
-                                            <figure class="figure" id="figureimgcaption">
-                                                <div class="img-gradient">
-                                                    <img id="image" src="/static/landhop/landscape5.jpg" class="img-fluid rounded" alt="Section 3">
-                                                </div>
-                                                <figcaption id="img-caption" class="text-center rounded"><h3>OCEANIA</h3></figcaption>
-                                            </figure>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col">
-                                        <a href="{% url 'sections' %}">
-                                            <figure class="figure" id="figureimgcaption">
-                                                <div class="img-gradient">
-                                                    <img id="image" src="/static/landhop/landscape5.jpg" class="img-fluid rounded" alt="Section 3">
-                                                </div>
-                                                <figcaption id="img-caption" class="text-center rounded"><h3>CARIBBEAN</h3></figcaption>
-                                            </figure>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col">
-                                        <a href="{% url 'sections' %}">
-                                            <figure class="figure" id="figureimgcaption">
-                                                <div class="img-gradient">
-                                                    <img id="image" src="/static/landhop/landscape5.jpg" class="img-fluid rounded" alt="Section 3">
-                                                </div>
-                                                <figcaption id="img-caption" class="text-center rounded"><h3>AFRICA</h3></figcaption>
-                                            </figure>
-                                        </a>
-                                    </div>
-                                </div>
-                                
+                                {% endfor %}
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

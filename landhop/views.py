@@ -4,7 +4,7 @@ from django.shortcuts import HttpResponse, HttpResponseRedirect, render
 from django.shortcuts import render
 from django.urls import reverse
 
-from .models import User
+from .models import User, Section
 
 # Create your views here.
 
@@ -12,7 +12,9 @@ from .models import User
 def index(request):
     # Authenticated users view their index
     if request.user.is_authenticated:
-        return render(request, "landhop/index.html")
+        return render(request, "landhop/index.html", {
+            "sections": Section.objects.all()
+        })
 
     # Everyone else is prompted to sign in
     else:
