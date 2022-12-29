@@ -34,9 +34,9 @@
                                         <div class="card-body">
                                             <h5 class="card-title"><strong>{{sight.title}}</strong></h5>
                                             <div class="stars-outer">
-                                                <div class="stars-inner"></div>
+                                                <div id="sight-stars-inner"></div>
                                             </div>
-                                            <span class="number-rating"></span>
+                                            <span class="number-rating">{{sight.totalStars}}</span>
                                             <p class="card-text shortDescription">{{sight.description}}</p>
                                             <a class="btn btn-primary" href="/sight/{{ sight.title }}" role="button">VIEW DETAILS</a>
                                         </div>
@@ -48,34 +48,6 @@
                                 <h5 class="bigMarginBotton"><strong>No sights available.</strong></h5>
                             </div>
                         {% endif %}
-                        <!--<div class="col">
-                            <div class="card h-100 sight2">
-                                <img src="{% static 'landhop/landscape5.jpg' %}" class="card-img-top" alt="Sight 2">
-                                <div class="card-body">
-                                    <h5 class="card-title"><strong>Sight 2</strong></h5>
-                                    <div class="stars-outer">
-                                        <div class="stars-inner"></div>
-                                    </div>
-                                    <span class="number-rating"></span>
-                                    <p class="card-text">This is a short card.</p>
-                                    <a class="btn btn-primary" href="{% url 'sight' %}" role="button">VIEW DETAILS</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card h-100 sight3">
-                                <img src="{% static 'landhop/landscape5.jpg' %}" class="card-img-top" alt="Sight 3">
-                                <div class="card-body">
-                                    <h5 class="card-title"><strong>Sight 3</strong></h5>
-                                    <div class="stars-outer">
-                                        <div class="stars-inner"></div>
-                                    </div>
-                                    <span class="number-rating"></span>
-                                    <p class="card-text">This is a short card.</p>
-                                    <a class="btn btn-primary" href="{% url 'sight' %}" role="button">VIEW DETAILS</a>
-                                </div>
-                            </div>
-                        </div>-->
                     </div>
                 </div>
             </div>
@@ -87,40 +59,59 @@
 {% endblock %}
 
 {% block script %}
-    <script>
-        // Initial ratings
-        const ratings = {
-            sight1: 4.7,
-            sight2: 3.5,
-            sight3: 5.0
-        }
+    
+<script>
+    //Run getRatings when DOM loads
+    document.addEventListener('DOMContentLoaded', getRatings)
 
-        // Total Stars
-        const starsTotal = 5;
+    let sightsStars = JSON.parse("{{sightsStarsJSON|escapejs}}") // Array [ {…}, {…} ]
 
-        // Get ratings
-        function getRatings() {
-            for (let rating in ratings) {
-                //console.log(ratings[rating])
-                // Get percentage
-                const starPercentage = (ratings[rating] / starsTotal) * 100;
-                //console.log(starPercentage)
+    // Convert Array of Objects to Array
+    const arrStars = sightsStars.map(object => object.totalStars);
+    console.log(arrStars); // 👉️ [ 0, 4.5 ]
 
-                // Round to nearest 10
-                const starPercentageRounded = `${Math.round(starPercentage / 10) * 10}%`
-                console.log(starPercentageRounded)
+    // Total Stars
+    const starsTotal = 5;
 
-                // Set width of stars-inner to percentage
-                document.querySelector(`.${rating} .stars-inner`).style.width=starPercentageRounded;
-
-                // Add number rating
-                document.querySelector(`.${rating} .number-rating`).innerHTML=ratings[rating].toFixed(1)
-            }
+    // Get ratings
+    function getRatings() {
+        // Get multiple divs for stars.inner
+        let divsStars = document.querySelectorAll('#sight-stars-inner');
             
+        // Stars on Sights
+        for (let arrStar in arrStars) {
+            //console.log(arrStars[arrStar]) // 4
+
+            // Get percentage
+            let starPctComment = (arrStars[arrStar] / starsTotal) * 100;
+            //console.log(starPctComment) // 80
+
+            // Round to nearest 10
+            let starPctRoundedComment = `${Math.round(starPctComment / 10) * 10}%`
+            console.log(starPctRoundedComment) // 80%
+
+            // Set width of stars-inner (only comments) to percentage
+            console.log(divsStars[arrStar])
+            divsStars[arrStar].style.width=starPctRoundedComment;
+                
+            console.log("------------------")
         }
+        // Stars of the sight
+        // Get percentage
+        //const starPercentage = (sightsStars / starsTotal) * 100;
+        //console.log(starPercentage) // 0
 
-        //Run getRatings when DOM loads
-        document.addEventListener('DOMContentLoaded', getRatings)
+        // Round to nearest 10
+        //const starPercentageRounded = `${Math.round(starPercentage / 10) * 10}%`
+        //console.log(starPercentageRounded) // 0%
 
-    </script>
+        // Set width of stars-inner (totalStars) to percentage
+        //document.querySelector(`.titleSight .stars-inner`).style.width=starPercentageRounded;
+
+        // Add number rating
+        //document.querySelector(`.titleSight .number-rating`).innerHTML=sightStars.toFixed(1)
+    }
+
+
+</script>
 {% endblock %}

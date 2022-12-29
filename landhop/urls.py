@@ -11,5 +11,6 @@ urlpatterns = [
     path("sections/<str:name>/", views.sections, name="sections"),
     path("categorySearch", views.categorySearch, name="categorySearch"),
     path("city/<str:name>/", views.city, name="city"),
-    path("sight", views.sight, name="sight")
+    path("sight/<str:name>/", views.sight, name="sight"),
+    path("newComment/<str:name>", views.newComment, name="newComment")
 ]

@@ -3,8 +3,9 @@ from django.db import IntegrityError
 from django.shortcuts import HttpResponse, HttpResponseRedirect, render
 from django.shortcuts import render
 from django.urls import reverse
+from json import dumps
 
-from .models import User, Section, City, Sight
+from .models import User, Section, City, Sight, Comment
 
 # Create your views here.
 
@@ -59,25 +60,102 @@ def city(request, name):
             print("NAME City: ", name)
             cityInfo = City.objects.get(title=name)
 
+            sights = Sight.objects.filter(city=cityInfo)
+            sightsInfo = Sight.objects.filter(city=cityInfo).values('totalStars')
+
+            # dump data
+            sightsStarsJSON = dumps(list(sightsInfo))
+            print(sightsStarsJSON)
+
             return render(request, "landhop/city.html", {
-                "sights": Sight.objects.filter(city=cityInfo),
+                "sights": sights,
                 "city": cityInfo,
-                "titleCity": name
+                "titleCity": name,
+                "sightsStarsJSON": sightsStarsJSON
             })
 
     # Everyone else is prompted to sign in
     else:
         return HttpResponseRedirect(reverse("login"))
 
-def sight(request):
+def sight(request, name):
     # Authenticated users view their index
     if request.user.is_authenticated:
-        return render(request, "landhop/sight.html")
+        # GET request method
+        if request.method == "GET":
+            print("NAME Sight: ", name)
+
+            sightInfo = Sight.objects.get(title=name)
+            comments = Comment.objects.filter(sight=sightInfo)
+            commentsInfo = Comment.objects.filter(sight=sightInfo).values('stars')
+            #data = {'data': commentsInfo}
+            #print(sightInfo)
+            #print(comments)
+            #print(commentsInfo)
+            #print(commentsInfo.count())
+            #print(data)
+
+            # Current number of total stars on the Sight
+            print("TOTAL STARS: ", sightInfo.totalStars)
+
+            # Get the number of comments on the Sight
+            commentsNumber = Comment.objects.filter(sight=sightInfo).values('stars').count()
+
+            # If there are no comments, set total stars of the sight to 0
+            if commentsNumber == 0:
+                sightInfo.totalStars = 0
+                sightInfo.save()
+
+            # dump data
+            starsJSON = dumps(sightInfo.totalStars)
+            titleJSON = dumps(sightInfo.title)
+            commentStarsJSON = dumps(list(commentsInfo))
+            print(commentStarsJSON)
+
+            return render(request, "landhop/sight.html", {
+                "comments": comments,
+                "sight": sightInfo,
+                "titleSight": name,
+                "starsJSON": starsJSON,
+                "titleJSON": titleJSON,
+                "commentStarsJSON": commentStarsJSON
+            })
+
+        
 
     # Everyone else is prompted to sign in
     else:
         return HttpResponseRedirect(reverse("login"))
 
+def newComment(request, name):
+    sightInfo = Sight.objects.get(title=name)
+    commentField = request.POST["comment"]
+    starsField = request.POST["stars"]
+
+    # Check who is the user
+    user = request.user
+
+    # Add data to the database
+    createdComment = Comment.objects.create(author=user, description=commentField, stars=starsField, sight=sightInfo)
+
+    # Save data to the database
+    createdComment.save()
+
+    # Current number of total stars on the Sight
+    sightStars = sightInfo.totalStars
+    print("TOTAL STARS: ", sightStars)
+
+    # Get current number of comments on the Sight
+    commentsInfo = Comment.objects.filter(sight=sightInfo).values('stars')
+    print(commentsInfo)
+    print("NO. COMMENTS: ", commentsInfo.count())
+
+    # Update number of total stars on the Sight with the average of stars
+    sightInfo.totalStars = (sightStars + float(starsField)) / commentsInfo.count()
+    sightInfo.save()
+
+    return HttpResponseRedirect(reverse("sight", args=(name, )))
+    #pass
 
 def login_view(request):
     if request.method == "POST":
