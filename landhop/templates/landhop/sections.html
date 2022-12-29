@@ -23,7 +23,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title"><strong>{{city.title}}</strong></h5>
                                             <p class="card-text shortDescription">{{city.description}}</p>
-                                            <a class="btn btn-primary" href="{% url 'city' %}" role="button">VIEW DETAILS</a>
+                                            <a class="btn btn-primary" href="/city/{{ city.title }}" role="button">VIEW DETAILS</a>
                                         </div>
                                     </div>
                                 </div>

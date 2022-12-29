@@ -25,3 +25,14 @@ class City(models.Model):
 
     def __str__(self):
         return f"{self.title}"
+
+class Sight(models.Model):
+    author = models.ForeignKey(User, on_delete=models.CASCADE, null=True, related_name="user")
+    title = models.CharField(max_length=100)
+    description = models.CharField(max_length=800)
+    photo = models.URLField(max_length=500)
+    city = models.ForeignKey(City, on_delete=models.CASCADE, null=True, related_name="city")
+    dateCreated = models.DateTimeField(default=timezone.now, blank=True)
+
+    def __str__(self):
+        return f"{self.title} by {self.author}"

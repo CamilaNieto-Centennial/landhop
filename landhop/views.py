@@ -4,7 +4,7 @@ from django.shortcuts import HttpResponse, HttpResponseRedirect, render
 from django.shortcuts import render
 from django.urls import reverse
 
-from .models import User, Section, City
+from .models import User, Section, City, Sight
 
 # Create your views here.
 
@@ -34,7 +34,7 @@ def sections(request, name):
     if request.user.is_authenticated:
         # GET request method
         if request.method == "GET":
-            print("NAME: ", name)
+            print("NAME Section: ", name)
             sectionInfo = Section.objects.get(title=name)
             
             return render(request, "landhop/sections.html", {
@@ -51,10 +51,19 @@ def categorySearch(request):
     pass
 
 
-def city(request):
+def city(request, name):
     # Authenticated users view their index
     if request.user.is_authenticated:
-        return render(request, "landhop/city.html")
+        # GET request method
+        if request.method == "GET":
+            print("NAME City: ", name)
+            cityInfo = City.objects.get(title=name)
+
+            return render(request, "landhop/city.html", {
+                "sights": Sight.objects.filter(city=cityInfo),
+                "city": cityInfo,
+                "titleCity": name
+            })
 
     # Everyone else is prompted to sign in
     else:

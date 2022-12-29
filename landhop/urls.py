@@ -10,6 +10,6 @@ urlpatterns = [
     path("allSections", views.allSections, name="allSections"),
     path("sections/<str:name>/", views.sections, name="sections"),
     path("categorySearch", views.categorySearch, name="categorySearch"),
-    path("city", views.city, name="city"),
+    path("city/<str:name>/", views.city, name="city"),
     path("sight", views.sight, name="sight")
 ]
