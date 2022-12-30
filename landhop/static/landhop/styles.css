@@ -342,6 +342,11 @@ hr .light-100 {
     margin-bottom: 5em;
 }
 
+/*Comments alert*/
+.alert-dark {
+    background-color: #f5f3f4;
+}
+
 /* Stars of sights inside City Page */
 .stars-outer {
     position: relative;
@@ -375,6 +380,12 @@ hr .light-100 {
 
 .number-rating{
     color: gray; 
+    font-weight: bold;
+}
+
+
+#number-comments {
+    color: #000; 
     font-weight: bold;
 }
 

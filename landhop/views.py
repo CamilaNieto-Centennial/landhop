@@ -4,6 +4,7 @@ from django.shortcuts import HttpResponse, HttpResponseRedirect, render
 from django.shortcuts import render
 from django.urls import reverse
 from json import dumps
+from django.template import loader
 
 from .models import User, Section, City, Sight, Comment
 
@@ -134,6 +135,14 @@ def newComment(request, name):
 
     # Check who is the user
     user = request.user
+
+    # Authentication (empty spaces)
+    #if commentField == '' or starsField == '':
+    #    return render(request, f'landhop/sight.html/{name}', {
+    #        "message": "Please fill out all spaces"
+    #    })
+        #return HttpResponseRedirect(reverse("sight", args=(name, )))
+
 
     # Add data to the database
     createdComment = Comment.objects.create(author=user, description=commentField, stars=starsField, sight=sightInfo)
