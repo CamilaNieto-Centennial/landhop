@@ -3,3 +3,4 @@ backports.zoneinfo==0.2.1
 Django==4.1.4
 sqlparse==0.4.3
 tzdata==2022.7
+gunicorn==20.0.4
