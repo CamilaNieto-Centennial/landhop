@@ -84,30 +84,31 @@ After you clone this repository, you must follow these steps:
     <li>[<em>Eiffel Tower</em>] [Photograph]. (n.d.). Planetware. <h>https://www.planetware.com/photos-large/F/eiffel-tower.jpg</h></li>
     <li>INSIGHT GUIDES. (2022). <em>France Travel Guide.</em> <h>https://www.insightguides.com/destinations/europe/france/disneyland-paris</h></li>
     <li>[<em>Disneyland Paris</em>] [Photograph]. (n.d.). Aerotravels. <h>https://aerotravels.co.uk/blog/wp-content/uploads/2021/01/Disneyland-paris-travel-tips.jpg</h></li>
-    <li>Viator. (2022). <em>Harry Potter Tour of Warner Bros. Studio with Transport from London.</em> <h>https://www.viator.com/tours/London/Harry-Potter-Tour-of-Warner-Bros-Studio-in-London/d737-2452POTTER</h></li>
+    <li>Headout. (2022). <em>The Only Guide You Need To Explore The Best of Louvre Museum Paris.</em> <h>https://www.headout.com/blog/louvre-museum-paris/#:~:text=The%20Louvre%20Museum%20in%20Paris,art%20collection%20in%20the%20world.</h></li>
     <li>[<em>Louvre Museum</em>] [Photograph]. (n.d.). Tacdn. <h>https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e4/a8/99.jpg</h></li>
+    <li>Viator. (2022). <em>Harry Potter Tour of Warner Bros. Studio with Transport from London.</em> <h>https://www.viator.com/tours/London/Harry-Potter-Tour-of-Warner-Bros-Studio-in-London/d737-2452POTTER</h></li>
     <li>[<em>Warner Bros. Studio - The Making of Harry Potter</em>] [Photograph]. (n.d.). s28943. <h>https://s28943.pcdn.co/wp-content/uploads/2018/02/warner-bros-studio-tour-london-the-making-of-harry-potter-warner-bros-studio-tour-london-hogwarts-expressweb-8bda679e9fcb25322ddbae65bb6d49dc.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Britain Express. (2022). <em>London Eye.</em> <h>https://www.britainexpress.com/London/London-Eye.htm#:~:text=Visitors%20climb%20aboard%20glass%2Dencased,London%20in%20a%20unique%20way</h></li>
     <li>[<em>London Eye</em>] [Photograph]. (n.d.). Klook. <h>https://res.klook.com/image/upload/q_85/c_fill,w_750/v1644476606/blog/fy7chb94ivvyb3lhdtdj.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Japan Endless Discovery. (2022). <em>Tsukiji Outer Market.</em> <h>https://www.japan.travel/en/spot/1707/</h></li>
     <li>[<em>Tsukiji Outer Market</em>] [Photograph]. (n.d.). Nyt. <h>https://static01.nyt.com/images/2015/11/15/travel/15TOKYO1/15TOKYO1-superJumbo.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>GO TOKYO. (2022). <em>Ueno travel guide - from Ameyoko to Ueno Park.</em> <h>https://www.gotokyo.org/en/destinations/northern-tokyo/ueno/index.html</h></li>
     <li>[<em>Ueno Park</em>] [Photograph]. (n.d.). Cdn. <h>https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2019/03/ueno-park-cherry-blossoms_gdl-1024x600.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Sydney.com. (2022). <em>Taronga Zoo Sydney.</em> <h>https://int.sydney.com/destinations/sydney/sydney-north/mosman/attractions/taronga-zoo-sydney</h></li>
     <li>[<em>Taronga Zoo</em>] [Photograph]. (n.d.). Pinimg. <h>https://i.pinimg.com/originals/27/08/70/2708701f242501a46bb48ee1c768eee0.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Trip.com. (2022). <em>Sydney Opera House: A Detailed Guide.</em> <h>https://www.trip.com/blog/sydney-opera-house-detailed-guide/</h></li>
     <li>[<em>Sydney Opera House</em>] [Photograph]. (n.d.). Roadtripandtravel. <h>https://roadtripandtravel.com/wp-content/uploads/sydney-opera-house-night.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Egypt Time Travel. (2022). <em>A Journey to National Museum of Egyptian.</em> <h>https://egypttimetravel.com/national-museum-of-egyptian-civilization/</h></li>
     <li>[<em>National Museum of Egyptian Civilization</em>] [Photograph]. (n.d.). Egypttoursportal. <h>https://www.egypttoursportal.com/images/2021/04/The-National-Museum-of-Egyptian-Civilization-NMEC-Egypt-Tours-Portal.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>AUDLEY. (2022). <em>Visit Dahshur, Egypt.</em> <h>https://www.audleytravel.com/egypt/places-to-go/dahshur</h></li>
     <li>[<em>Dahshur</em>] [Photograph]. (n.d.). Tripadvisor. <h>https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/63/a4/eb/dahshur.jpg?w=1200&h=-1&s=1</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Headout. (2022). <em>All You Need to Know About Park Guell in Barcelona.</em> <h>https://www.parkguell-tickets.com/park-guell-barcelona/</h></li>
     <li>[<em>Park Güell</em>] [Photograph]. (n.d.). Tacdn. <h>https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/60/bb.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Headout. (2022). <em>Your Essential Guide to Visit Sagrada Familia in Barcelona | Timings, Location, Tips & More.</em> <h>https://sagradafamilia.barcelona-tickets.com/plan-your-visit-sagrada-familia/</h></li>
     <li>[<em>Sagrada Familia</em>] [Photograph]. (n.d.). Ricksteves. <h>https://blog.ricksteves.com/wp-content/uploads/2020/09/daily-dose-sagrada-IG.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>US News. (2022). <em>Rio de Janeiro Travel Guide.</em> <h>https://travel.usnews.com/Rio_de_Janeiro_Brazil/</h></li>
     <li>[<em>Rio de Janeiro</em>] [Photograph]. (n.d.). Travelsafe. <h>https://cdn.travelsafe-abroad.com/wp-content/uploads/2482.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>US News. (2022). <em>Buenos Aires Travel Guide.</em> <h>https://travel.usnews.com/Buenos_Aires_Argentina/</h></li>
     <li>[<em>Buenos Aires</em>] [Photograph]. (n.d.). Experiencechile. <h>https://www.experiencechile.org/wp-content/uploads/2018/10/ba1.jpg</h></li>
     <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
     <li>[<em>Dubai</em>] [Photograph]. (n.d.). Forbestravelguide. <h>https://secure.s.forbestravelguide.com/img/destinations/Dubai-iStock-JandaliPhoto.jpg</h></li>
