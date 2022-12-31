@@ -1,6 +1,6 @@
 asgiref==3.6.0
 backports.zoneinfo==0.2.1
 Django==4.1.4
+gunicorn @ git+https://github.com/benoitc/gunicorn.git@1efc5d91fa3dd2fad54cb931a9f7473499de5165
 sqlparse==0.4.3
 tzdata==2022.7
-gunicorn==20.0.4
