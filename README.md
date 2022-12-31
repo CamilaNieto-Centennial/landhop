@@ -51,7 +51,9 @@ After you clone this repository, you must follow these steps:
 <h3>References:</h3>
 <p>The content inside the webpage was taken from inspiration from various sources. As well, the information and images were taken from:</p>
 <ul>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Lonely Planet. (2022). <em>Discover story-worthy travel moments.</em> <h>https://www.lonelyplanet.com/</h></li>
+    <li>GET YOUR GUIDE. (2022). <em>Discover unforgettable travel experiences.</em> <h>https://www.getyourguide.com/</h></li>
+    <li>Imagine Dragons. [ImagineDragons]. (2022, June 24). <em>Imagine Dragons - Sharks (Official Music Video)</em> [Video]. YouTube. <h>https://www.youtube.com/watch?v=Te3_VlimRw0</h></li>
     <hr>
     <li>[<em>South America</em>] [Photograph]. (n.d.). Thoughtco. <h>https://www.thoughtco.com/thmb/S3YU2hCvC0z8lhnKFK8yYmUQ8H0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/christredeemer-10139156-567c92283df78ccc15684502.jpg</h></li>
     <li>[<em>Middle East</em>] [Photograph]. (n.d.). Youimg1. <h>https://youimg1.tripcdn.com/target/10051f000001gsq96340F.jpg?proc=source%2Ftrip</h></li>
@@ -110,28 +112,26 @@ After you clone this repository, you must follow these steps:
     <li>[<em>Rio de Janeiro</em>] [Photograph]. (n.d.). Travelsafe. <h>https://cdn.travelsafe-abroad.com/wp-content/uploads/2482.jpg</h></li>
     <li>US News. (2022). <em>Buenos Aires Travel Guide.</em> <h>https://travel.usnews.com/Buenos_Aires_Argentina/</h></li>
     <li>[<em>Buenos Aires</em>] [Photograph]. (n.d.). Experiencechile. <h>https://www.experiencechile.org/wp-content/uploads/2018/10/ba1.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>TRAVEL + LEISURE. (2022). <em>Dubai Travel Guide.</em> <h>https://www.travelandleisure.com/travel-guide/dubai</h></li>
     <li>[<em>Dubai</em>] [Photograph]. (n.d.). Forbestravelguide. <h>https://secure.s.forbestravelguide.com/img/destinations/Dubai-iStock-JandaliPhoto.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Trip.com. (2022). <em>Doha Travel Guide.</em> <h>https://www.trip.com/travel-guide/destination/doha-1733/</h></li>
     <li>[<em>Doha</em>] [Photograph]. (n.d.). Holidify. <h>https://www.holidify.com/images/bgImages/DOHA.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>US News. (2022). <em>Havana, Cuba Travel Guide.</em> <h>https://travel.usnews.com/Havana_Cuba/</h></li>
     <li>[<em>Havana</em>] [Photograph]. (n.d.). R9cdn. <h>https://content.r9cdn.net/rimg/dimg/a3/1d/05f2b4a1-city-11020-1700c4dba73.jpg?crop=true&width=1020&height=498</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>TRAVEL LEMMING. (2022). <em>San Juan, Puerto Rico.</em> <h>https://travellemming.com/san-juan-pr/</h></li>
     <li>[<em>San Juan</em>] [Photograph]. (n.d.). Thrillist. <h>https://assets3.thrillist.com/v1/image/2811871/1200x600/scale;</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>MOWGLI ADVENTURES. (2022). <em>A practical guide to visiting Christ the Redeemer.</em> <h>https://mowgli-adventures.com/visiting-christ-the-redeemer-brazil/</h></li>
     <li>[<em>Christ the Redeemer</em>] [Photograph]. (n.d.). Fodors. <h>https://www.fodors.com/wp-content/uploads/2022/07/1-Avoiding-Crowds-shutterstock_1888737391.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>FREE WALKS. (2022). <em>Caminito Buenos Aires.</em> <h>https://www.buenosairesfreewalks.com/batips/caminito-buenos-aires/</h></li>
     <li>[<em>Caminito Street</em>] [Photograph]. (n.d.). Tripadvisor. <h>https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/fe/95/b4/caminito-street-8.jpg?w=1200&h=-1&s=1</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Headout. (2022). <em>Your Ultimate Guide to Visiting the Burj Khalifa.</em> <h>https://www.headout.com/blog/burj-khalifa-dubai/</h></li>
     <li>[<em>Burj Khalifa</em>] [Photograph]. (n.d.). Makemytrip. <h>https://www.makemytrip.com/travel-guide/media/dg_image/dubai/Burj-Khalifa.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Lonely Planet. (2022). <em>Souq Waqif.</em> <h>https://www.lonelyplanet.com/qatar/doha/attractions/souq-waqif/a/poi-sig/451983/361125</h></li>
     <li>[<em>Souq Waqif</em>] [Photograph]. (n.d.). GetYourGuide. <h>https://cdn.getyourguide.com/img/location/59631c093b71d.jpeg/99.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Youth Hostel. (2022). <em>Havana.</em> <h>https://www.youth-hostel.si/en/page/everything-about-travel/cities-around-the-world/havana?linksubid=PPC-ANG_Travel&gclid=Cj0KCQiAtbqdBhDvARIsAGYnXBMi0cbIe_2g3h_l2sJwgtFCY2-s1cJTPFrdCtzHHWKipLHGmyJlYCMaAmGxEALw_wcB</h></li>
     <li>[<em>Old Havana</em>] [Photograph]. (n.d.). Istockphoto. <h>https://media.istockphoto.com/id/1327163693/photo/multicolored-vintage-taxi-cars-on-street-of-havana-against-historic-buildings.jpg?s=612x612&w=0&k=20&c=RGiKd-MWtJil7ZhW7liyiE0R7OKMXDoKzigdvRtOG0E=</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>TRAVEL + LEISURE. (2022). <em>Las Vegas Travel Guide.</em> <h>https://www.travelandleisure.com/travel-guide/las-vegas-nevada</h></li>
     <li>[<em>Las Vegas</em>] [Photograph]. (n.d.). R9cdn. <h>https://content.r9cdn.net/rimg/dimg/60/fa/63274ccd-city-35107-16f0ffd226d.jpg?width=1750&height=1000&xhint=2074&yhint=1764&crop=true</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Tripadvisor. (2022). <em>The STRAT Hotel, Casino & SkyPod.</em> <h>https://www.tripadvisor.com/Hotel_Review-g45963-d114898-Reviews-The_STRAT_Hotel_Casino_SkyPod-Las_Vegas_Nevada.html</h></li>
     <li>[<em>The STRAT Hotel, Casino & SkyPod</em>] [Photograph]. (n.d.). Thestrat. <h>https://thestrat.com/userfiles/social/opengraph/121/Picture1.png</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
 </ul>
