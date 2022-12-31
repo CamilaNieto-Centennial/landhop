@@ -76,15 +76,16 @@ After you clone this repository, you must follow these steps:
     <li>US News. (2022). <em>Sydney Travel Guide.</em> <h>https://travel.usnews.com/Sydney_Australia/</h></li>
     <li>[<em>Australia</em>] [Photograph]. (n.d.). Klook. <h>https://res.klook.com/image/upload/v1646641811/blog/hjsmdfvqyhd9egf9xoc1.jpg </h></li>
     <li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
-    <li>[<em>Statue of Liberty</em>] [Photograph]. (n.d.). CNN. <h>https://cdn.cnn.com/cnnnext/dam/assets/190503105157-statue-of-liberty-national-park-super-tease.jpg </h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Statue of Liberty. (2022). <em>UNESCO.</em> <h>https://whc.unesco.org/en/list/307/</h></li>
+    <li>[<em>Statue of Liberty</em>] [Photograph]. (n.d.). CNN. <h>https://cdn.cnn.com/cnnnext/dam/assets/190503105157-statue-of-liberty-national-park-super-tease.jpg</h></li>
+    <li>Trip Savvy. (2022). <em>Central Park Visitors Guide.</em> <h>https://www.tripsavvy.com/central-park-visitors-guide-1612791</h></li>
+    <li>[<em>Central Park</em>] [Photograph]. (n.d.). Travellemming. <h>https://travellemming.com/wp-content/uploads/Things-to-Do-in-Central-Park.jpg</h></li>
+    <li>Independent Travel Cats. (2022). <em>Complete Guide to Visiting the Eiffel Tower in Paris.</em> <h>-	https://independenttravelcats.com/eiffel-tower-paris-france/</h></li>
     <li>[<em>Eiffel Tower</em>] [Photograph]. (n.d.). Planetware. <h>https://www.planetware.com/photos-large/F/eiffel-tower.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>INSIGHT GUIDES. (2022). <em>France Travel Guide.</em> <h>https://www.insightguides.com/destinations/europe/france/disneyland-paris</h></li>
     <li>[<em>Disneyland Paris</em>] [Photograph]. (n.d.). Aerotravels. <h>https://aerotravels.co.uk/blog/wp-content/uploads/2021/01/Disneyland-paris-travel-tips.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>Viator. (2022). <em>Harry Potter Tour of Warner Bros. Studio with Transport from London.</em> <h>https://www.viator.com/tours/London/Harry-Potter-Tour-of-Warner-Bros-Studio-in-London/d737-2452POTTER</h></li>
     <li>[<em>Louvre Museum</em>] [Photograph]. (n.d.). Tacdn. <h>https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e4/a8/99.jpg</h></li>
-    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
     <li>[<em>Warner Bros. Studio - The Making of Harry Potter</em>] [Photograph]. (n.d.). s28943. <h>https://s28943.pcdn.co/wp-content/uploads/2018/02/warner-bros-studio-tour-london-the-making-of-harry-potter-warner-bros-studio-tour-london-hogwarts-expressweb-8bda679e9fcb25322ddbae65bb6d49dc.jpg</h></li>
     <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
     <li>[<em>London Eye</em>] [Photograph]. (n.d.). Klook. <h>https://res.klook.com/image/upload/q_85/c_fill,w_750/v1644476606/blog/fy7chb94ivvyb3lhdtdj.jpg</h></li>
