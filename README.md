@@ -61,28 +61,75 @@ After you clone this repository, you must follow these steps:
     <li>[<em>Asia</em>] [Photograph]. (n.d.). Exoticca. <h>https://www.exoticca.com/us/blog/wp-content/uploads/2019/07/The-9-best-tips-to-travel-to-China-for-the-first-time.jpg</h></li>
     <li>[<em>North America</em>] [Photograph]. (n.d.). Agoda. <h>https://www.agoda.com/wp-content/uploads/2020/07/Statue-of-Liberty-things-to-do-in-new-york-USA.jpg</h></li>
     <li>[<em>Europe</em>] [Photograph]. (n.d.). Clairesfootsteps. <h>https://clairesfootsteps.com/wp-content/uploads/2018/06/shutterstock_556743958.jpg</h></li>
+    <li>Civitalis. (2021). <em>New York.</em> <h>https://www.introducingnewyork.com/</h></li>
     <li>[<em>New York</em>] [Photograph]. (n.d.). Ngenespanol. <h>https://dam.ngenespanol.com/wp-content/uploads/2021/05/cuanto-cuesta-viajar-a-nueva-york.jpg </h></li>
+    <li>Great Britain. (2022). <em>London.</em> <h>https://www.visitbritain.com/en/destinations/england/london</h></li>
     <li>[<em>London</em>] [Photograph]. (n.d.). Tripsavvy. <h>https://www.tripsavvy.com/thmb/jp1WOlSxGYDiW-rFSGEzNaq__pI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/London-big-Ben-58b5d2663df78cdcd8c69fd4.jpg</h></li>
+    <li>Yatra. (2022). <em>A travel guide to paris.</em> <h>https://www.yatra.com/international-tourism/paris-travel-guide#:~:text=About%20paris,-Paris%20is%20not&text=Located%20by%20the%20River%20Seine,delicious%20food%20and%20exciting%20fashion.</h></li>
     <li>[<em>Paris</em>] [Photograph]. (n.d.). Adsttc. <h>https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/large_jpg/eiffel-tower-in-paris-151-medium.jpg?1564742900 </h></li>
+    <li>Barcelona.com. (2022). <em>Barcelona City guide.</em> <h>https://www.barcelona.com/barcelona_city_guide</h></li>
     <li>[<em>Barcelona</em>] [Photograph]. (n.d.). Imgix. <h>https://lp-cms-production.imgix.net/2021-07/GettyRF_1137803766.jpg </h></li>
+    <li>NOMADIC MATT. (2022). <em>Tokyo Travel Guide.</em> <h>https://www.nomadicmatt.com/travel-guides/japan-travel-tips/tokyo/</h></li>
     <li>[<em>Tokyo</em>] [Photograph]. (n.d.). Hips. <h>https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1058360160-1-1624796189.jpg</h></li>
+    <li>Pin and travel. (2022). <em>Travel to the land of the Pharaohs and discover the best Egypt tourist attractions.</em> <h>https://www.barcelo.com/pinandtravel/en/egypt-tourist-attractions/</h></li>
     <li>[<em>Egypt</em>] [Photograph]. (n.d.). Fodors. <h>https://www.fodors.com/wp-content/uploads/2019/06/EgyptTours__HERO_CC_Giza_Pyramids_Desert_Camels.jpg</h></li>
+    <li>US News. (2022). <em>Sydney Travel Guide.</em> <h>https://travel.usnews.com/Sydney_Australia/</h></li>
     <li>[<em>Australia</em>] [Photograph]. (n.d.). Klook. <h>https://res.klook.com/image/upload/v1646641811/blog/hjsmdfvqyhd9egf9xoc1.jpg </h></li>
+    <li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
     <li>[<em>Statue of Liberty</em>] [Photograph]. (n.d.). CNN. <h>https://cdn.cnn.com/cnnnext/dam/assets/190503105157-statue-of-liberty-national-park-super-tease.jpg </h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
     <li>[<em>Eiffel Tower</em>] [Photograph]. (n.d.). Planetware. <h>https://www.planetware.com/photos-large/F/eiffel-tower.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
     <li>[<em>Disneyland Paris</em>] [Photograph]. (n.d.). Aerotravels. <h>https://aerotravels.co.uk/blog/wp-content/uploads/2021/01/Disneyland-paris-travel-tips.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
     <li>[<em>Louvre Museum</em>] [Photograph]. (n.d.). Tacdn. <h>https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e4/a8/99.jpg</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
-    <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Warner Bros. Studio - The Making of Harry Potter</em>] [Photograph]. (n.d.). s28943. <h>https://s28943.pcdn.co/wp-content/uploads/2018/02/warner-bros-studio-tour-london-the-making-of-harry-potter-warner-bros-studio-tour-london-hogwarts-expressweb-8bda679e9fcb25322ddbae65bb6d49dc.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>London Eye</em>] [Photograph]. (n.d.). Klook. <h>https://res.klook.com/image/upload/q_85/c_fill,w_750/v1644476606/blog/fy7chb94ivvyb3lhdtdj.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Tsukiji Outer Market</em>] [Photograph]. (n.d.). Nyt. <h>https://static01.nyt.com/images/2015/11/15/travel/15TOKYO1/15TOKYO1-superJumbo.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Ueno Park</em>] [Photograph]. (n.d.). Cdn. <h>https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2019/03/ueno-park-cherry-blossoms_gdl-1024x600.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Taronga Zoo</em>] [Photograph]. (n.d.). Pinimg. <h>https://i.pinimg.com/originals/27/08/70/2708701f242501a46bb48ee1c768eee0.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Sydney Opera House</em>] [Photograph]. (n.d.). Roadtripandtravel. <h>https://roadtripandtravel.com/wp-content/uploads/sydney-opera-house-night.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>National Museum of Egyptian Civilization</em>] [Photograph]. (n.d.). Egypttoursportal. <h>https://www.egypttoursportal.com/images/2021/04/The-National-Museum-of-Egyptian-Civilization-NMEC-Egypt-Tours-Portal.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Dahshur</em>] [Photograph]. (n.d.). Tripadvisor. <h>https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/63/a4/eb/dahshur.jpg?w=1200&h=-1&s=1</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Park Güell</em>] [Photograph]. (n.d.). Tacdn. <h>https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/60/bb.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Sagrada Familia</em>] [Photograph]. (n.d.). Ricksteves. <h>https://blog.ricksteves.com/wp-content/uploads/2020/09/daily-dose-sagrada-IG.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Rio de Janeiro</em>] [Photograph]. (n.d.). Travelsafe. <h>https://cdn.travelsafe-abroad.com/wp-content/uploads/2482.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Buenos Aires</em>] [Photograph]. (n.d.). Experiencechile. <h>https://www.experiencechile.org/wp-content/uploads/2018/10/ba1.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Dubai</em>] [Photograph]. (n.d.). Forbestravelguide. <h>https://secure.s.forbestravelguide.com/img/destinations/Dubai-iStock-JandaliPhoto.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Doha</em>] [Photograph]. (n.d.). Holidify. <h>https://www.holidify.com/images/bgImages/DOHA.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Havana</em>] [Photograph]. (n.d.). R9cdn. <h>https://content.r9cdn.net/rimg/dimg/a3/1d/05f2b4a1-city-11020-1700c4dba73.jpg?crop=true&width=1020&height=498</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>San Juan</em>] [Photograph]. (n.d.). Thrillist. <h>https://assets3.thrillist.com/v1/image/2811871/1200x600/scale;</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Christ the Redeemer</em>] [Photograph]. (n.d.). Fodors. <h>https://www.fodors.com/wp-content/uploads/2022/07/1-Avoiding-Crowds-shutterstock_1888737391.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Caminito Street</em>] [Photograph]. (n.d.). Tripadvisor. <h>https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/fe/95/b4/caminito-street-8.jpg?w=1200&h=-1&s=1</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Burj Khalifa</em>] [Photograph]. (n.d.). Makemytrip. <h>https://www.makemytrip.com/travel-guide/media/dg_image/dubai/Burj-Khalifa.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Souq Waqif</em>] [Photograph]. (n.d.). GetYourGuide. <h>https://cdn.getyourguide.com/img/location/59631c093b71d.jpeg/99.jpg</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Old Havana</em>] [Photograph]. (n.d.). Istockphoto. <h>https://media.istockphoto.com/id/1327163693/photo/multicolored-vintage-taxi-cars-on-street-of-havana-against-historic-buildings.jpg?s=612x612&w=0&k=20&c=RGiKd-MWtJil7ZhW7liyiE0R7OKMXDoKzigdvRtOG0E=</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>Las Vegas</em>] [Photograph]. (n.d.). R9cdn. <h>https://content.r9cdn.net/rimg/dimg/60/fa/63274ccd-city-35107-16f0ffd226d.jpg?width=1750&height=1000&xhint=2074&yhint=1764&crop=true</h></li>
+    <li>Title Company. (2022). <em>Title Article.</em> <h>https://example.com/</h></li>
+    <li>[<em>The STRAT Hotel, Casino & SkyPod</em>] [Photograph]. (n.d.). Thestrat. <h>https://thestrat.com/userfiles/social/opengraph/121/Picture1.png</h></li>
     <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
     <li>[<em></em>] [Photograph]. (n.d.). Thoughtco. <h>https://www</h></li>
 </ul>
