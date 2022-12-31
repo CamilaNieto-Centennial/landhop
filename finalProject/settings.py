@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-xo2_x^tp8w(7uz)bf#%ksgeya-0^+n))n&g#*+4kllu$(udpr%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['landhop.up.railway.app']
 
 
 # Application definition
