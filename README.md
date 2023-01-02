@@ -1,6 +1,7 @@
 # LANDHOP
 #### Project made for CS50W - Final Project
 #### Video Demo:  <a href="https://youtu.be/Rk1VNHPSfSs">Youtube Video</a>
+#### <a href="https://landhop.up.railway.app/">Link of the Project</a>
 <h3>Description:</h3>
 <p>This project is a responsive webpage perfect for tourists and travelers. The goal of this project is to offer the user an opportunity to get an accurate tourist guide website by allowing people to rate sights and make comments about them. This website uses HTML, CSS, JavaScript, Bootstrap, Python (Django), and SQLite. Please keep in mind that this is not an official website that shows up as a real tourist guide webpage. I am just a developer who wants to showcase a cool website, taking inspiration from websites like "Lonely Planet", and "Get Your Guide".</p>
 <p>The website has different features. To get to the home page, the user must log in or register. Once that is done, the user will be able to explore the full webpage by going through the Top cities or choosing a section. After choosing a city, the user can check the top sights for that city in particular. Once the sight is chosen, the user can read and/or make comments and rate that attraction.</p>
